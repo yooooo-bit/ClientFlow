@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Client</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <div class="welcome-card">
+        <h1>Edit Client</h1>
+        <p>Update the client's information.</p>
+
+        <form method="POST">
+            <label for="name">Client Name</label>
+            <input type="text" id="name" name="name"
+                   value="{{ client.name }}" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   value="{{ client.email }}" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone"
+                   value="{{ client.phone }}" required>
+
+            <button type="submit">Update Client</button>
+        </form>
+
+        <a href="{{ url_for('dashboard') }}">Back to Dashboard</a>
+    </div>
+</div>
+
+</body>
+</html>

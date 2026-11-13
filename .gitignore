@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.db
+.env
+.env.*
+!.env.example
+app-backup.py
+*-backup.*
+*before-redesign*
+.idea/
+.vscode/
