@@ -72,3 +72,18 @@ Currently developed as a portfolio project.
 ## Author
 
 Smriti Rai
+
+## Application Screenshots
+
+### Dashboard
+![ClientFlow Dashboard](screenshots/dashboard.png)
+
+### Client Management
+![Client Management](screenshots/cc.png)
+
+### Dashboard Overview
+![Dashboard Overview](screenshots/das.png)
+
+### Registration and Login
+![Registration and Login](screenshots/rr.png)
+
