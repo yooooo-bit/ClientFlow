@@ -75,15 +75,14 @@ Smriti Rai
 
 ## Application Screenshots
 
-### Dashboard
+### 1. Dashboard
 ![ClientFlow Dashboard](screenshots/dashboard.png)
 
-### Client Management
-![Client Management](screenshots/cc.png)
+### 2. Client Records
+![Client Records](screenshots/rr.png)
 
-### Dashboard Overview
-![Dashboard Overview](screenshots/das.png)
+### 3. Login Portal
+![Login Portal](screenshots/das.png)
 
-### Registration and Login
-![Registration and Login](screenshots/rr.png)
-
+### 4. Dashboard Overview
+![Dashboard Overview](screenshots/cc.png)
